@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('GillSansStd.otf') format('opentype');
+}
+body{
+    background-color: rgb(249, 213, 213);
+}
+.seven {
+    font-size: 120px;
+    color: rgb(244, 73, 110);
+    font-weight: bold;
+    font-family: 'GillSansStd', sans-serif;
+}
+.ina {
+    font-size: 50px;
+    color: lavenderblush;
+    font-weight: lighter;
+    font-family: 'Gill Sans', sans-serif;
+}
+.written{
+    font-size: 20px;
+    color: lightpink;
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+}
+.kind{
+    font-size: 20px;
+    color: rgb(245, 117, 117);
+    font-weight: lighter;
+    font-family: 'Gill Sans', sans-serif;
+}
+.contrast {
+    font-size: 80px;
+    color: rgb(244, 73, 110);
+    font-weight: bold;
+    font-family: 'GillSansStd', sans-serif;
+}
+a:visited { 
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(121, 167, 240);
+}
+p {
+    font-size: 20px;
+    color: rgb(244, 73, 110);
+    font-weight: lighter;
+    font-family: 'Gill Sans', sans-serif;
+}
