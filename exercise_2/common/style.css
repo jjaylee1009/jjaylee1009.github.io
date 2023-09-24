@@ -5,35 +5,152 @@
 body{
     background-color: rgb(249, 213, 213);
 }
+
 .seven {
     font-size: 120px;
     color: rgb(244, 73, 110);
     font-weight: bold;
     font-family: 'GillSansStd', sans-serif;
 }
+#seven {
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+}
+#principle {
+    color: snow;
+    text-shadow: 1px 1px 2px rgb(255, 174, 174), 0 0 1em rgb(182, 100, 169);
+}
 .ina {
     font-size: 50px;
-    color: lavenderblush;
+    color: rgb(247, 134, 172);
     font-weight: lighter;
     font-family: 'Gill Sans', sans-serif;
 }
+#ina {
+    width: 600px;
+    height: 360px;
+    border: 7px solid rgb(250, 114, 159);
+    float: left;
+    position: relative;
+    box-sizing: content-box;
+    padding: 10px;
+}
+
 .written{
     font-size: 20px;
     color: lightpink;
     font-weight: bold;
     font-family: 'Gill Sans', sans-serif;
+    clear: inherit;
+    float: left;
+    position: relative;
+    width: 50px;
+    padding: 30px;
 }
-.kind{
+#carl {
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+}
+#dairpone {
+    float: left;
+    width: 650px;
+    height: 300px;
+    border: 7px solid rgb(250, 114, 159);
+    box-sizing: border-box;
+    overflow: scroll;
+    padding: 10px;
+    margin: 120px auto 20px 100px ;
+}
+#dairptwo {
+    float: left;
+    width: 650px;
+    height: 300px;
+    border: 7px solid rgb(250, 114, 159);
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: scroll;
+    margin: 0px 60px 20px 650px;
+}
+#harmonyp {
+    float: left;
+    width: 400px;
+    border: 7px solid rgb(250, 114, 159);
+    position: relative;
+    padding: 10px;
+    overflow: scroll;
+    margin: 100px 60px 60px 100px;
+}
+#harmony {
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-left: 30px;
+}
+.kind {
     font-size: 20px;
     color: rgb(245, 117, 117);
     font-weight: lighter;
     font-family: 'Gill Sans', sans-serif;
 }
+#kind {
+    font-size: 20px;
+    color: rgb(241, 146, 146);
+    font-weight: lighter;
+    font-family: 'Gill Sans', sans-serif;
+    width: 200px;
+    border: 3px solid rgb(253, 166, 166);
+    border-radius: 20px;
+    padding: 4px;
+    margin: 40px 60px 30px 30px;
+    display: inline-table;
+    position: relative;
+    left: 70px;
+}
+#kindtwo {
+    font-size: 20px;
+    color: rgb(241, 146, 146);
+    font-weight: lighter;
+    font-family: 'Gill Sans', sans-serif;
+    width: 200px;
+    border: 3px solid rgb(253, 166, 166);
+    border-radius: 20px;
+    padding: 4px;
+    margin: 40px 60px 30px 30px;
+    display: inline-table;
+    position: relative;
+    left: 70px;
+}
+#kindp {
+    float: left;
+    width: 400px;
+    border: 7px solid rgb(250, 114, 159);
+    position: relative;
+    padding: 10px;
+    overflow: scroll;
+    margin: 100px 100px 60px 150px;
+}
 .contrast {
-    font-size: 80px;
+    font-size: 50px;
     color: rgb(244, 73, 110);
     font-weight: bold;
     font-family: 'GillSansStd', sans-serif;
+}
+#a {
+    float: left;
+    width: 400px;
+    height: 400px;
+    border: 7px solid rgb(250, 114, 159);
+    position: relative;
+    padding: 10px;
+    overflow: scroll;
+    margin: 100px 100px 60px 150px;
+    overflow: scroll;
+    left: 130px;
 }
 a:visited { 
     color:rgb(255, 255, 255);
@@ -48,3 +165,4 @@ p {
     font-weight: lighter;
     font-family: 'Gill Sans', sans-serif;
 }
+
