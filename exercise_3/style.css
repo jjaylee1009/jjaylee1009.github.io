@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('GillSansStd.otf') format('opentype');
+}
+body{
+    background-color: rgb(157, 183, 238);
+}
+.shapeone {
+    width: 150px;
+    height: 280px;
+    background-color: lightpink;
+    border-radius: 50px;
+    display: inline-block;
+}
+.shapetwo {
+    width: 150px;
+    height: 280px;
+    background-color: rgb(250, 160, 173);
+    border-radius: 70px 70px 3px 3px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.shapethree {
+    width: 150px;
+    height: 280px;
+    background-color: rgb(160, 241, 250);
+    border-radius: 40px 100px 0px 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.shapefour {
+    width: 215px;
+    height: 215px;
+    background-color: rgb(103, 219, 232);
+    border-radius: 50%;
+    margin-left: 20px;
+    display: inline-block;
+}
+.shapefive {
+    width: 150px;
+    height: 280px;
+    background-color: rgb(229, 249, 127);
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    transform: rotate(30deg);
+}
+.shapesix {
+    width: 150px;
+    height: 280px;
+    background-color: rgb(217, 228, 161);
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    transform: rotate(30deg);
+    transform-origin: bottom left;
+}
+.shapeeight {
+    width: 50px;
+    height: 80px;
+    margin: 50px;
+    background-color: rgb(226, 224, 254);
+    -moz-transform: scale(1.1) skew(49deg, 29deg);
+    -webkit-transform: scale(1.1) skew(49deg, 29deg);
+    -o-transform: scale(1.1) skew(49deg, 29deg);
+    -ms-transform: scale(1.1) skew(49deg, 29deg);
+    transform: scale(1.1) skew(49deg, 29deg);
+}
+.wone{
+    width: 50px;
+    height: 300px;
+    margin-left: 100px;
+    background-color: aquamarine;
+    transform: skewX(20deg) translateY(-50px);
+    display: inline-block;
+}
+.wtwo{
+    width: 50px;
+    height: 300px;
+    margin: 50px;
+    background-color: aquamarine;
+    transform: skewX(-20deg) translateX(-5px);
+    display: inline-block;
+}
+.wthree{
+    width: 50px;
+    height: 300px;
+    margin: 50px;
+    background-color: aquamarine;
+    transform: skewX(20deg) translateX(-45px);
+    display: inline-block;
+}
+.wfour{
+    width: 50px;
+    height: 300px;
+    margin: 50px;
+    background-color: aquamarine;
+    transform: skewX(-20deg) translateX(-90px) ;
+    display: inline-block;
+}
+.zone{
+    width: 180px;
+    height: 30px;
+    transform: skewX(-30deg);
+    background-color: bisque;
+    margin-left: 50px;
+}
+.ztwo{
+    width: 30px;
+    height: 250px;
+    transform: skewX(-40deg) translate(100px,-30px);
+    background-color: bisque;
+}
+.zthree{
+    width: 180px;
+    height: 30px;
+    transform: skewX(-30deg) translateY(-60px) translateX(-40px);
+    background-color: bisque;
+    margin-left: 50px;
+}
+.bone{
+    width: 200px;
+    height: 120px;
+    background-color: rgb(230, 253, 196);
+    border-radius: 0px 75px 75px 0px;
+    margin-left: 50px;
+}
+.btwo {
+    width: 230px;
+    height: 150px;
+    background-color: rgb(230, 253, 196);
+    border-radius: 0px 75px 75px 0px;
+    margin-left: 50px;
+}
+.rone{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(141, 250, 250);
+    border-radius: 0px 75px 75px 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.rtwo{
+    width: 50px;
+    height: 140px;
+    background-color:rgb(141, 250, 250) ;
+    margin-left: 50px;
+}
+.rthree{
+    width: 50px;
+    height: 140px;
+    background-color:rgb(141, 250, 250) ;
+    margin-left: 50px;
+    transform: skewX(30deg) translate(195px, -140px);
+}
+.done{
+    width: 30px;
+    height: 250px;
+    background-color: lemonchiffon;
+    margin-left: 50px;
+}
+.dtwo{
+    width: 150px;
+    height: 250px;
+    background-color: lemonchiffon ;
+    border-radius: 0px 110px 110px 0px;
+    margin-left: 50px;
+    transform: translateX(30px) translateY(-250px);
+}
+.dtwoone{
+    width: 30px;
+    height: 250px;
+    background-color: lemonchiffon;
+    margin-left: 50px;
+    z-index: 0;
+}
+.dtwotwotwo{
+    width: 150px;
+    height: 250px;
+    background-color: lemonchiffon ;
+    border-radius: 0px 110px 110px 0px;
+    margin-left: 50px;
+    transform: translateX(30px) translateY(-250px);
+    z-index: 5;
+}
+.din{
+    width: 90px;
+    height: 160px;
+    border-radius: 0px 80px 80px 0px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    transform: translateX(35px) translateY(-285px);
+    z-index: 10;
+    filter: drop-shadow(5px 0px 4px crimson);
+}
+.wtwoone{
+    width: 50px;
+    height: 300px;
+    border-radius: 25px;
+    margin-left: 100px;
+    background-color: rgb(220, 240, 255);
+    transform: skewX(20deg) translateY(-50px);
+    opacity: .5;
+    display: inline-block;
+}
+.wtwotwo{
+    width: 50px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: rgb(84, 245, 191);
+    transform: skewX(-20deg) translateX(-5px);
+    opacity: .5;
+    display: inline-block;
+}
+.wtwothree{
+    width: 50px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: rgb(234, 164, 250);
+    transform: skewX(20deg) translateX(-45px);
+    opacity: .5;
+    display: inline-block;
+}
+.wtwofour{
+    width: 50px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: rgb(169, 242, 255);
+    transform: skewX(-20deg) translateX(-90px) ;
+    opacity: .5;
+    display: inline-block;
+}
+.w, .b, .z, .r, .d, .dwhole, .wsecond{
+    display: inline-block;
+}
+.w{
+    transform: scale(.7);
+}
+.z{
+    transform: translateY(-20px) scale(.85);
+    margin-left: -180px;
+}
+.b{
+    margin-left: -10px;
+    transform: translateY(-65px) scale(.8);
+}
+.r{
+    margin-left: -40px;
+    transform: translateY(70px) scale(.78);
+}
+.d{
+    transform: translateY(160px) scale(.9);
+}
+.dtwotwo{
+    transform: translateY(160px) scale(0.9);
+    filter: drop-shadow(10px 0px 0px rgb(220, 20, 213));
+}
+.dwhole{
+    transform: translateY(150px);
+}
+.wsecond{
+    transform: translateY(-20px) scale(.7);
+}
+
