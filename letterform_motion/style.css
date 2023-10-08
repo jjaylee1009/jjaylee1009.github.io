@@ -1,0 +1,287 @@
+body{
+    background-image: linear-gradient(to right, rgb(146, 201, 235) , rgb(237, 189, 229));
+}
+.woneleft{
+    width: 40px;
+    height: 150px;
+    background-color:black;
+    display: inline-block;
+    transform: skewX(10deg);
+    margin-left: 30px;
+}
+.wonebottomone{
+    width: 0; 
+    height: 0; 
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    margin-left: -20px;
+    transition-property: border-bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+.wonebottomone:hover {
+    border-bottom: 60px solid black;
+}
+.woneright{
+    width: 40px;
+    height: 150px;
+    background-color:black;
+    display: inline-block;
+    margin-left: -20px;
+    transform: skewX(-10deg);
+}
+.wtwobottom:hover{
+    background-color: black;
+}
+.wtwoleft{
+    width: 40px;
+    height: 150px;
+    border-radius: 0px 40px 0px 0px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 30px;
+    z-index: 0;
+}
+.wtwomiddle{
+    width: 40px;
+    height: 95px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 40px 40px 0px 0px ;
+    z-index: 0;
+}
+.wtworight{
+    width: 40px;
+    height: 150px;
+    border-radius: 40px 0px 0px 0px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 30px;
+    z-index: 0;
+}
+.wtwobottom{
+    width: 160px;
+    height: 30px;
+    background-color: transparent;
+    position: relative;
+    left: -200px;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+@keyframes threemove {
+    0% {
+        height: 0px;
+        transform: translateX(-5px);
+        transform: skewX(-10deg);
+    }
+    50% {
+        height: 150px;
+        transform: translateX(0px);
+        transform: skewX(-10deg);
+    }
+    100% {
+        height: 0px;
+        transform: translateX(-5px);
+        transform: skewX(-10deg);
+    }
+}
+.wthreefirst{
+    width: 40px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 30px;
+    transform: skewX(10deg);
+}
+.wthreesecond{
+    width: 10px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(-10deg);
+    transform: translateX(0px);
+    margin-left: 20px;
+    animation-name: threemove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: none;
+}
+.wthreethird{
+    width: 40px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+    transform: skewX(10deg);
+}
+.wthreeforth{
+    width: 10px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(-10deg);
+    transform: translateX(0px);
+    margin-left: 20px;
+    animation-name: threemove;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: none;
+}
+@keyframes fourmove {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(35px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes fourmovetwo {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-35px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.wfourone{
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(20deg);
+    margin-left: 50px;
+}
+.wfourtwo{
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(20deg);
+    margin-left: 50px;
+}
+.wfourthree{
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(-20deg);
+    margin-left: 50px;
+}
+.wfourfour{
+    width: 30px;
+    height: 150px;
+    background-color: black;
+    display: inline-block;
+    transform: skewX(-20deg);
+    margin-left: 50px;
+}
+.wfourgroupone{
+    display: inline-block;
+    animation-name: fourmovetwo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: none;
+}
+.wfourgrouptwo{
+    display: inline-block;
+    margin-left: -160px;
+    z-index: 10;
+    animation-name: fourmove;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: none;
+}
+.wfiveone{
+    width: 40px;
+    height: 150px;
+    transform: skewX(20deg);
+    background-color: black;
+    display: inline-block;
+    margin-left: 50px;
+}
+.wfivetwo{
+    width: 40px;
+    height: 150px;
+    transform: skewX(-20deg);
+    background-color: black;
+    display: inline-block;
+    margin-left: 0px;
+}
+.wfivethree{
+    width: 40px;
+    height: 150px;
+    transform: skewX(20deg);
+    background-color: black;
+    display: inline-block;
+    margin-left: 0px;
+}
+.wfivefour{
+    width: 40px;
+    height: 150px;
+    transform: skewX(-20deg);
+    background-color: black;
+    display: inline-block;
+    margin-left: 0px;
+}
+.wfivegroup{
+    display: inline-block;
+    transform: translate(0px 0px);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+.wfivegroup:hover{
+    filter: drop-shadow(20px 0px 0px #d66f87);
+    transform: translate(-20px);
+}
+.wonegroup, .wtwogroup, .wthreegroup, .wfourgroup, .wfivegroup{
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+}
+.wonegroup{
+    position: absolute;
+    left: 150px;
+}
+.wtwogroup{
+    position: absolute;
+    left: 450px;
+}
+.wthreegroup{
+    position: absolute;
+    left: 750px;
+}
+.wfourgroup{
+    position: absolute;
+    left: 1000px;
+}
+.wfivegroup{
+    position: absolute;
+    left: 1250px;
+}

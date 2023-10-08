@@ -5,97 +5,37 @@
 body{
     background-color: rgb(157, 183, 238);
 }
-.shapeone {
-    width: 150px;
-    height: 280px;
-    background-color: lightpink;
-    border-radius: 50px;
-    display: inline-block;
-}
-.shapetwo {
-    width: 150px;
-    height: 280px;
-    background-color: rgb(250, 160, 173);
-    border-radius: 70px 70px 3px 3px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.shapethree {
-    width: 150px;
-    height: 280px;
-    background-color: rgb(160, 241, 250);
-    border-radius: 40px 100px 0px 15px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.shapefour {
-    width: 215px;
-    height: 215px;
-    background-color: rgb(103, 219, 232);
-    border-radius: 50%;
-    margin-left: 20px;
-    display: inline-block;
-}
-.shapefive {
-    width: 150px;
-    height: 280px;
-    background-color: rgb(229, 249, 127);
-    border-radius: 50px;
-    display: inline-block;
-    margin-left: 50px;
-    transform: rotate(30deg);
-}
-.shapesix {
-    width: 150px;
-    height: 280px;
-    background-color: rgb(217, 228, 161);
-    border-radius: 50px;
-    display: inline-block;
-    margin-left: 50px;
-    transform: rotate(30deg);
-    transform-origin: bottom left;
-}
-.shapeeight {
-    width: 50px;
-    height: 80px;
-    margin: 50px;
-    background-color: rgb(226, 224, 254);
-    -moz-transform: scale(1.1) skew(49deg, 29deg);
-    -webkit-transform: scale(1.1) skew(49deg, 29deg);
-    -o-transform: scale(1.1) skew(49deg, 29deg);
-    -ms-transform: scale(1.1) skew(49deg, 29deg);
-    transform: scale(1.1) skew(49deg, 29deg);
-}
 .wone{
     width: 50px;
     height: 300px;
-    margin-left: 100px;
+    margin-left: 50px;
     background-color: aquamarine;
-    transform: skewX(20deg) translateY(-50px);
+    transform: skewX(20deg);
     display: inline-block;
 }
 .wtwo{
     width: 50px;
     height: 300px;
-    margin: 50px;
+    margin-left: 50px;
     background-color: aquamarine;
-    transform: skewX(-20deg) translateX(-5px);
+    transform: skewX(-20deg);
     display: inline-block;
 }
 .wthree{
     width: 50px;
     height: 300px;
-    margin: 50px;
+    margin-left: 50px;
     background-color: aquamarine;
-    transform: skewX(20deg) translateX(-45px);
+    transform: skewX(20deg);
     display: inline-block;
 }
 .wfour{
     width: 50px;
     height: 300px;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: aquamarine;
-    transform: skewX(-20deg) translateX(-90px) ;
+    transform: skewX(-20deg) ;
     display: inline-block;
 }
 .zone{
@@ -107,99 +47,108 @@ body{
 }
 .ztwo{
     width: 30px;
-    height: 250px;
-    transform: skewX(-40deg) translate(100px,-30px);
+    height: 240px;
+    transform: skewX(-40deg);
     background-color: bisque;
+    margin-left: 100px;
 }
 .zthree{
     width: 180px;
     height: 30px;
-    transform: skewX(-30deg) translateY(-60px) translateX(-40px);
+    transform: skewX(-30deg);
     background-color: bisque;
-    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
 }
 .bone{
     width: 200px;
-    height: 120px;
+    height: 140px;
     background-color: rgb(230, 253, 196);
     border-radius: 0px 75px 75px 0px;
     margin-left: 50px;
 }
 .btwo {
     width: 230px;
-    height: 150px;
+    height: 160px;
     background-color: rgb(230, 253, 196);
     border-radius: 0px 75px 75px 0px;
     margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
 }
 .rone{
     width: 200px;
     height: 140px;
     background-color: rgb(141, 250, 250);
     border-radius: 0px 75px 75px 0px;
-    margin-top: 50px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 .rtwo{
     width: 50px;
-    height: 140px;
+    height: 160px;
     background-color:rgb(141, 250, 250) ;
+    display: inline-block;
     margin-left: 50px;
 }
 .rthree{
     width: 50px;
-    height: 140px;
+    height: 160px;
     background-color:rgb(141, 250, 250) ;
+    transform: skewX(30deg);
     margin-left: 50px;
-    transform: skewX(30deg) translate(195px, -140px);
+    display: inline-block;
 }
 .done{
     width: 30px;
-    height: 250px;
+    height: 300px;
     background-color: lemonchiffon;
     margin-left: 50px;
+    display: inline-block;
 }
 .dtwo{
     width: 150px;
-    height: 250px;
+    height: 300px;
     background-color: lemonchiffon ;
     border-radius: 0px 110px 110px 0px;
-    margin-left: 50px;
-    transform: translateX(30px) translateY(-250px);
+    display: inline-block;
+    margin-right: 50px;
 }
 .dtwoone{
     width: 30px;
-    height: 250px;
+    height: 300px;
     background-color: lemonchiffon;
     margin-left: 50px;
     z-index: 0;
+    display: inline-block;
 }
 .dtwotwotwo{
     width: 150px;
-    height: 250px;
+    height: 300px;
     background-color: lemonchiffon ;
     border-radius: 0px 110px 110px 0px;
-    margin-left: 50px;
-    transform: translateX(30px) translateY(-250px);
+    display: inline-block;
     z-index: 5;
+    margin-right: 50px;
 }
 .din{
     width: 90px;
-    height: 160px;
+    height: 240px;
     border-radius: 0px 80px 80px 0px;
     background-color: aliceblue;
-    margin-left: 50px;
-    transform: translateX(35px) translateY(-285px);
     z-index: 10;
     filter: drop-shadow(5px 0px 4px crimson);
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -270px;
 }
 .wtwoone{
     width: 50px;
     height: 300px;
+    transform: skewX(20deg);
     border-radius: 25px;
-    margin-left: 100px;
+    margin-left: 50px;
     background-color: rgb(220, 240, 255);
-    transform: skewX(20deg) translateY(-50px);
     opacity: .5;
     display: inline-block;
 }
@@ -207,9 +156,9 @@ body{
     width: 50px;
     height: 300px;
     border-radius: 25px;
-    margin: 50px;
+    margin-left: 50px;
     background-color: rgb(84, 245, 191);
-    transform: skewX(-20deg) translateX(-5px);
+    transform: skewX(-20deg);
     opacity: .5;
     display: inline-block;
 }
@@ -217,9 +166,9 @@ body{
     width: 50px;
     height: 300px;
     border-radius: 25px;
-    margin: 50px;
+    margin-left: 50px;
     background-color: rgb(234, 164, 250);
-    transform: skewX(20deg) translateX(-45px);
+    transform: skewX(20deg) ;
     opacity: .5;
     display: inline-block;
 }
@@ -227,41 +176,19 @@ body{
     width: 50px;
     height: 300px;
     border-radius: 25px;
-    margin: 50px;
+    margin-left: 50px;
     background-color: rgb(169, 242, 255);
-    transform: skewX(-20deg) translateX(-90px) ;
+    transform: skewX(-20deg);
     opacity: .5;
     display: inline-block;
+    margin-right: 50px;
 }
 .w, .b, .z, .r, .d, .dwhole, .wsecond{
     display: inline-block;
-}
-.w{
-    transform: scale(.7);
-}
-.z{
-    transform: translateY(-20px) scale(.85);
-    margin-left: -180px;
-}
-.b{
-    margin-left: -10px;
-    transform: translateY(-65px) scale(.8);
-}
-.r{
-    margin-left: -40px;
-    transform: translateY(70px) scale(.78);
-}
-.d{
-    transform: translateY(160px) scale(.9);
+    margin: 20px;
 }
 .dtwotwo{
-    transform: translateY(160px) scale(0.9);
     filter: drop-shadow(10px 0px 0px rgb(220, 20, 213));
 }
-.dwhole{
-    transform: translateY(150px);
-}
-.wsecond{
-    transform: translateY(-20px) scale(.7);
-}
+
 
