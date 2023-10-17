@@ -285,3 +285,98 @@ body{
     position: absolute;
     left: 1250px;
 }
+.button, .buttontwo, .buttonthree, .buttonfour, .buttonfive{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 150px;
+    text-align: center;
+    display: inline-block;
+}
+.button{
+    margin-left: 250px;
+}
+.buttontwo{
+    margin-left: 250px;
+}
+.buttonthree{
+    margin-left: 230px;
+}
+.buttonfour{
+    margin-left: 220px;
+}
+.buttonfive{
+    margin-left: 220px;
+}
+.button:hover{
+    color: white;
+    background-color: black;
+}
+.buttontwo:hover{
+    color: white;
+    background-color: black;
+}
+.buttonthree:hover{
+    color: white;
+    background-color: black;
+}
+.buttonfour:hover{
+    color: white;
+    background-color: black;
+}
+.buttonfive:hover{
+    color: white;
+    background-color: black;
+}
+.onecode{
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 180px;
+    border: 2px black;
+    margin-top: 80px;
+}
+.twocode{
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 470px;
+    border: 2px black;
+    margin-top: 80px;
+}
+.threecode{
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 760px;
+    border: 2px black;
+    margin-top: 80px;
+}
+.fourcode{
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1050px;
+    border: 2px black;
+    margin-top: 80px;
+}
+.fivecode{
+    font-size: 10px;
+    position: absolute;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1340px;
+    border: 2px black;
+    margin-top: 80px;
+}
